@@ -16,7 +16,7 @@ body, html {
   gap: 0px;
   width: 95vw; /* Grid width is 50% of viewport width */
   position: relative; /* Needed for absolute positioning within cells */
-  background-image: url('background/face.png'); /* Path to the background image */
+/*   background-image: url('background/face.png');  */
   background-size: cover; /* Ensure the background image covers the entire container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center; /* Center the background image */
