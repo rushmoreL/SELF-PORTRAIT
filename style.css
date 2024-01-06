@@ -6,15 +6,15 @@ body, html {
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   overflow: hidden; /* Hides any overflow */
-  background-color: black;
+  background-color: #f1f1f1;
 }
 
 #grid-container {
   display: grid;
   grid-template-columns: repeat(24, 1fr); /* 24 columns */
-  grid-auto-rows: calc(40vw * (37 / 28) / 24); /* Row height based on column width */
+  grid-auto-rows: calc(50vw * (37 / 28) / 24); /* Row height based on column width */
   gap: 0px;
-  width: 40vw; /* Grid width is 50% of viewport width */
+  width: 50vw; /* Grid width is 50% of viewport width */
   position: relative; /* Needed for absolute positioning within cells */
   background-image: url('background/face.png'); /* Path to the background image */
   background-size: cover; /* Ensure the background image covers the entire container */
