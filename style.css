@@ -12,9 +12,9 @@ body, html {
 #grid-container {
   display: grid;
   grid-template-columns: repeat(24, 1fr); /* 24 columns */
-  grid-auto-rows: calc(50vw * (37 / 28) / 24); /* Row height based on column width */
+  grid-auto-rows: calc(95vw * (37 / 28) / 24); /* Row height based on column width */
   gap: 0px;
-  width: 50vw; /* Grid width is 50% of viewport width */
+  width: 95vw; /* Grid width is 50% of viewport width */
   position: relative; /* Needed for absolute positioning within cells */
   background-image: url('background/face.png'); /* Path to the background image */
   background-size: cover; /* Ensure the background image covers the entire container */
